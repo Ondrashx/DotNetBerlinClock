@@ -57,6 +57,10 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>BerlinClockFeatureSteps.feature</DependentUpon>
     </Compile>
+    <Compile Include="UnitTests\Converters\TopHoursConverterTests.cs" />
+    <Compile Include="UnitTests\TimeSpanParserTests.cs" />
+    <Compile Include="UnitTests\Painters\TopHoursPainterTests.cs" />
+    <Compile Include="UnitTests\Painters\TopMinutesPainterTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

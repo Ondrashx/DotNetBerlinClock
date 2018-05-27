@@ -17,7 +17,7 @@ namespace BerlinClock.Domain.Converters
                 .Select(pos => { 
                     if (pos < turnedOnLeds) {
                         // every 3rd light (15 min) there is a red light
-                        if (pos % 3 == 0) return Constants.Color.Red;
+                        if (pos % 3 == 2) return Constants.Color.Red;
                         return Constants.Color.Yellow;
                     } else {
                         return Constants.Color.None;

@@ -39,8 +39,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Helpers\24HourTimeConverter.cs" />
     <Compile Include="Helpers\Constants.cs" />
-    <Compile Include="Helpers\RangePainter.cs" />
+    <Compile Include="Helpers\SpecialConverterFactory.cs" />
     <Compile Include="RowConverter.cs" />
     <Compile Include="BerlinClock.cs" />
     <Compile Include="BerlinClockFactory.cs" />

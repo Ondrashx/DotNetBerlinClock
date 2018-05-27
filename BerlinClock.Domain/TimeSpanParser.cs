@@ -13,7 +13,6 @@ namespace BerlinClock.Domain
         public TimeSpan Parse(string time)
         {
             return DateTime.ParseExact(time, "HH:mm:ss", CultureInfo.InvariantCulture).TimeOfDay;
-            //return TimeSpan.Parse(time, CultureInfo);
         }
     }
 }
